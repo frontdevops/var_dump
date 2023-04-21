@@ -47,7 +47,7 @@ setup(
         "Source": "https://github.com/frontdevops/vardump",
         "Bug Tracker": "https://github.com/frontdevops/vardump/issues",
     },
-    keywords=["pypi", "config", "library", "vardump", "var", "dump", "vardump", "vardump"],
+    keywords=["pypi", "config", "library", "varsdump", "var", "dump", "vardump", "vardump"],
     classifiers=[
         # 'Development Status :: 4 - Beta',
         'Development Status :: 5 - Production/Stable',
@@ -57,8 +57,8 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Topic :: Software Development :: Libraries :: Application Utilities',
     ],
-    package_dir={"": "vardump"},
-    packages=find_packages(where="vardump", exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
+    package_dir={"": "varsdump"},
+    packages=find_packages(where="varsdump", exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
     include_package_data=False,
     python_requires='>=3.10.8',
     install_requires=[
