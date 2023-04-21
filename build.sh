@@ -7,11 +7,11 @@
 
 echo "Delete current dist..."
 rm -vrf dist
-rm -vrf magic_config/magic_config.egg-info
+rm -vrf varsdump/varsdump.egg-info
 
 python -m build
 
-twine check dist/* && python -m twine upload --verbose dist/*
+python -m twine check dist/* && python -m twine upload --verbose dist/*
 
 
 #python -m twine upload --verbose --repository testpypi dist/*

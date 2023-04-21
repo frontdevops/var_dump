@@ -39,15 +39,15 @@ setup(
     description=project_meta["project"]["description"],
     long_description=get_description(),
     long_description_content_type="text/markdown",
-    url='https://github.com/frontdevops/magic-config',
-    download_url=("https://github.com/frontdevops/magic-config/archive/refs/tags/"
+    url='https://github.com/frontdevops/varsdump',
+    download_url=("https://github.com/frontdevops/varsdump/archive/refs/tags/"
                   f'{project_meta["project"]["version"]}.tar.gz'),
     project_urls={
-        "Documentation": "https://github.com/frontdevops/magic-config/blob/main/README.md",
-        "Source": "https://github.com/frontdevops/magic-config",
-        "Bug Tracker": "https://github.com/frontdevops/magic-config/issues",
+        "Documentation": "https://github.com/frontdevops/varsdump/blob/main/README.md",
+        "Source": "https://github.com/frontdevops/varsdump",
+        "Bug Tracker": "https://github.com/frontdevops/varsdump/issues",
     },
-    keywords=["pypi", "config", "library", "magic"],
+    keywords=["pypi", "config", "library", "varsdump", "var", "dump", "varsdump", "varsdump"],
     classifiers=[
         # 'Development Status :: 4 - Beta',
         'Development Status :: 5 - Production/Stable',
@@ -57,8 +57,8 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Topic :: Software Development :: Libraries :: Application Utilities',
     ],
-    package_dir={"": "magic_config"},
-    packages=find_packages(where="magic_config", exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
+    package_dir={"": "varsdump"},
+    packages=find_packages(where="varsdump", exclude=('tests', 'tests.*', 'examples.*', 'docs',)),
     include_package_data=False,
     python_requires='>=3.10.8',
     install_requires=[
