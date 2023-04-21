@@ -33,3 +33,8 @@ some_obj = {
 
 var_dump(some_obj)
 ```
+
+## For update use:
+```
+pip install varsdump --upgrade
+```
