@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vardump"
+name = "varsdump"
 version = "1.0.0"
 authors = [
     { name = "Alexander Majorov", email = "alexander.majorov@gmail.com" },
