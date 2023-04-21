@@ -5,13 +5,13 @@ a small wrapper function to output the colored variable prints to the terminal. 
 
 ## Installation
 ```python
-pip install vardump
+pip install varsdump
 ```
 
 ##Enable
 ```python
 # app.py
-import vardump
+import varsdump
 import some_controller
 
 ...
