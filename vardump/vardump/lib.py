@@ -18,4 +18,4 @@ def varsdump(variable) -> None:
         )
     )
 
-builtins.varsdump = varsdump
+builtins.var_dump = var_dump
