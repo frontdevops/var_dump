@@ -5,7 +5,7 @@ from pygments.lexers import PythonLexer
 from pygments.formatters import TerminalFormatter
 
 
-def varsdump(variable) -> None:
+def var_dump(variable) -> None:
     """
     :param variable:
     :return:
