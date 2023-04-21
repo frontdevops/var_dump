@@ -38,3 +38,5 @@ var_dump(some_obj)
 ```
 pip install vardump --upgrade
 ```
+
+<img src="https://raw.githubusercontent.com/frontdevops/vardump/main/assets/screen.png" width=600>
