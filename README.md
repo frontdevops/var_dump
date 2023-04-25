@@ -8,7 +8,7 @@ a small wrapper function to output the colored variable prints to the terminal. 
 pip install varsdump
 ```
 
-##Enable
+## Enable
 ```python
 # app.py
 import varsdump
@@ -19,7 +19,7 @@ var_dump(...)
 ...
 ```
 
-##Usage
+## Usage
 ```python
 # some_controller.py
 
@@ -34,7 +34,7 @@ some_obj = {
 var_dump(some_obj)
 ```
 
-## For update use:
+## For update
 ```
 pip install vardump --upgrade
 ```
